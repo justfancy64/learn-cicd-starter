@@ -37,8 +37,12 @@ jobs:
       - name: stylecheck
         run:
           test -z $(go fmt ./...);
+
       - name: stylecheck2
         run: echo $?
+
+      - name: format
+        run: go fmt
         
      
      
