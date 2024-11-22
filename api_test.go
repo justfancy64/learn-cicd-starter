@@ -24,3 +24,8 @@ func TestApiKey(t *testing.T) {
 }
 
 
+func TestBroken(t *testing.T) {
+	t.Fatalf("this test is expected to fail")
+}
+
+
