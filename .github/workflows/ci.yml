@@ -37,7 +37,7 @@ jobs:
       - name: stylecheck
         run:
           test -z $(go fmt ./...)
-          echo $1
+          echo $?
             
         
      
