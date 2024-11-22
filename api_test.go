@@ -22,7 +22,3 @@ func TestApiKey(t *testing.T) {
 		t.Fatalf("want: %v\nGot: %v\n", expected, out)
 	}
 }
-
-
-
-
